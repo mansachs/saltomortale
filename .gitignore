@@ -1,3 +1,4 @@
+
 # built application files
 *.apk
 *.ap_
@@ -18,3 +19,33 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+.sln
+.suo
+.user
+.js
+.ico
+.exe
+.cache
+.png
+.jpg
+source/SaltoMortale/_ReSharper.SaltoMortale/ModuleIds.xml
+source/SaltoMortale/_ReSharper.SaltoMortale/NamedArguments/.crc
+source/SaltoMortale/_ReSharper.SaltoMortale/NamedArguments/.version
+source/SaltoMortale/_ReSharper.SaltoMortale/TagPrefixes/8/524abce3.dat
+*.bin
+*.crc
+*.version
+*.dat
+*.nuspec
+*.nupkg
+*.psd1
+*.psm1
+*.exe
+*.ps1
+*.ps1
+*.png
+*.txt
+*.sln
+*.suo
+*.user
+source/SaltoMortale/packages/EntityFramework.5.0.0/Content/App.config.transform
