@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using AutoMapper;
+using SaltoMortale.DataRepository;
+using SaltoMortale.ViewModels;
 
 namespace SaltoMortale.Controllers
 {
@@ -10,9 +13,13 @@ namespace SaltoMortale.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+            var baseView = new FrontPageBaseView();
+            var list = XmlDataRepository.GetFrontPageItems();
 
-            return View();
+            var baseList  = list.Select(Mapper.Map<FrontPageViewItem>).ToList();
+            baseView.FrontPageViewItems = baseList;
+            return View(baseView);
+
         }
 
         public ActionResult About()

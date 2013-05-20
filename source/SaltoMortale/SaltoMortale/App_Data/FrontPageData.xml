@@ -1,0 +1,44 @@
+﻿<FrontPageRoot>
+  <Item>
+    <Title>
+      Klods-Hans
+    </Title>
+    <ImageUrl>
+      something1
+    </ImageUrl>
+    <TeaserText>
+      teaser1
+    </TeaserText>
+    <ButtonText>
+      next1
+    </ButtonText>
+  </Item>
+  <Item>
+    <Title>
+      Byen uden Lyde
+    </Title>
+    <ImageUrl>
+url2
+    </ImageUrl>
+    <TeaserText>
+teaser2
+    </TeaserText>
+    <ButtonText>
+next2
+    </ButtonText>
+  </Item>
+  <Item>
+    <Title>
+Hattecirkus
+    </Title>
+    <ImageUrl>
+url3
+    </ImageUrl>
+    <TeaserText>
+teaser3
+    </TeaserText>
+    <ButtonText>
+lala
+    </ButtonText>
+  </Item>
+</FrontPageRoot>
